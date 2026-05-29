@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{POST_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}" />
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="{{POST_TITLE}}" />
+  <meta property="og:description" content="{{META_DESCRIPTION}}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{CLIENT_WEBSITE}}/blog/{{POST_SLUG}}" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{POST_TITLE}}" />
+  <meta name="twitter:description" content="{{META_DESCRIPTION}}" />
+
+  <style>
+    :root {
+      --color-primary: {{COLOR_PRIMARY}};
+      --color-secondary: {{COLOR_SECONDARY}};
+      --color-accent: {{COLOR_ACCENT}};
+      --color-background: {{COLOR_BACKGROUND}};
+      --color-text: {{COLOR_TEXT}};
+      --font-heading: {{FONT_HEADING}}, system-ui, sans-serif;
+      --font-body: {{FONT_BODY}}, Georgia, serif;
+
+      --max-width: 720px;
+      --space-1: 0.5rem;
+      --space-2: 1rem;
+      --space-3: 1.5rem;
+      --space-4: 2rem;
+      --space-6: 3rem;
+      --space-8: 4rem;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--color-background);
+      color: var(--color-text);
+      font-family: var(--font-body);
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    /* Header */
+    .site-header {
+      border-bottom: 1px solid color-mix(in srgb, var(--color-text) 12%, transparent);
+      padding: var(--space-2) var(--space-3);
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .site-header img {
+      height: 32px;
+      width: auto;
+    }
+    .site-header a {
+      color: var(--color-text);
+      text-decoration: none;
+      font-family: var(--font-heading);
+      font-weight: 600;
+    }
+
+    /* Article */
+    .article {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: var(--space-6) var(--space-3) var(--space-8);
+    }
+
+    .article-meta {
+      font-size: 0.875rem;
+      color: color-mix(in srgb, var(--color-text) 60%, transparent);
+      margin-bottom: var(--space-2);
+      font-family: var(--font-heading);
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-family: var(--font-heading);
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.15;
+      margin: 0 0 var(--space-4);
+      color: var(--color-text);
+      letter-spacing: -0.01em;
+    }
+
+    h2 {
+      font-family: var(--font-heading);
+      font-size: 1.75rem;
+      line-height: 1.25;
+      margin: var(--space-6) 0 var(--space-2);
+      color: var(--color-text);
+    }
+
+    h3 {
+      font-family: var(--font-heading);
+      font-size: 1.25rem;
+      line-height: 1.3;
+      margin: var(--space-4) 0 var(--space-1);
+      color: var(--color-text);
+    }
+
+    p {
+      margin: 0 0 var(--space-2);
+    }
+
+    a {
+      color: var(--color-primary);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    blockquote {
+      border-left: 3px solid var(--color-accent);
+      padding-left: var(--space-3);
+      margin: var(--space-3) 0;
+      font-style: italic;
+      color: color-mix(in srgb, var(--color-text) 80%, transparent);
+    }
+
+    ul, ol {
+      padding-left: var(--space-3);
+      margin: 0 0 var(--space-2);
+    }
+    li { margin-bottom: var(--space-1); }
+
+    img, .graphic-embed {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: var(--space-4) auto;
+      border-radius: 8px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: var(--space-3) 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border-bottom: 1px solid color-mix(in srgb, var(--color-text) 15%, transparent);
+      padding: var(--space-1) var(--space-2);
+      text-align: left;
+    }
+    th {
+      font-family: var(--font-heading);
+      font-weight: 600;
+      color: var(--color-primary);
+    }
+
+    code {
+      background: color-mix(in srgb, var(--color-text) 8%, transparent);
+      padding: 0.1em 0.4em;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+    pre {
+      background: color-mix(in srgb, var(--color-text) 6%, transparent);
+      padding: var(--space-2);
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    pre code {
+      background: transparent;
+      padding: 0;
+    }
+
+    /* Author block */
+    .author-block {
+      max-width: var(--max-width);
+      margin: var(--space-6) auto;
+      padding: var(--space-3);
+      border-top: 1px solid color-mix(in srgb, var(--color-text) 12%, transparent);
+      display: flex;
+      gap: var(--space-3);
+      align-items: flex-start;
+    }
+    .author-block .name {
+      font-family: var(--font-heading);
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .author-block .title {
+      color: color-mix(in srgb, var(--color-text) 65%, transparent);
+      font-size: 0.95rem;
+    }
+
+    /* Footer */
+    .site-footer {
+      background: color-mix(in srgb, var(--color-primary) 8%, var(--color-background));
+      padding: var(--space-4) var(--space-3);
+      text-align: center;
+      font-size: 0.875rem;
+      color: color-mix(in srgb, var(--color-text) 70%, transparent);
+    }
+    .site-footer a { color: var(--color-primary); }
+
+    /* Preview banner */
+    .preview-banner {
+      background: var(--color-accent);
+      color: white;
+      padding: var(--space-1) var(--space-3);
+      text-align: center;
+      font-family: var(--font-heading);
+      font-size: 0.875rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      .article { padding: var(--space-3); }
+      h1 { font-size: 1.75rem; }
+      h2 { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-banner">
+    📍 Preview — not yet published to {{CLIENT_WEBSITE}}
+  </div>
+
+  <header class="site-header">
+    <a href="{{CLIENT_WEBSITE}}">
+      <img src="{{LOGO_PATH}}" alt="{{CLIENT_NAME}}" />
+    </a>
+    <a href="{{CLIENT_WEBSITE}}">{{CLIENT_NAME}}</a>
+  </header>
+
+  <article class="article">
+    <div class="article-meta">{{POST_CATEGORY}} · {{READ_TIME}} min read</div>
+    {{POST_BODY_HTML}}
+  </article>
+
+  <section class="author-block">
+    {{AUTHOR_BLOCK_HTML}}
+  </section>
+
+  <footer class="site-footer">
+    © {{YEAR}} {{CLIENT_NAME}} · <a href="{{CLIENT_WEBSITE}}">{{CLIENT_WEBSITE}}</a>
+  </footer>
+</body>
+</html>

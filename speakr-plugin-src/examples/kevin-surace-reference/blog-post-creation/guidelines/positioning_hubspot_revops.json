@@ -1,0 +1,73 @@
+{
+  "PositioningCanvas": {
+    "@attributes": {
+      "sheet": "Positioning - Kevin Surace - AI Leadership + Joy-Success"
+    },
+    "WhoAndWhat": {
+      "Item": [
+        "CTOs, founders, CEOs, C-suite executives navigating AI transformation. Conference organizers evaluating AI keynote speakers.",
+        "Primary: CTOs and technical leaders, Founders/CEOs (Series A through enterprise). Secondary: Senior managers, entrepreneurs, aspiring leaders interested in Joy-Success framework.",
+        "Keynote speaking ($25K+ tier), The Joy-Success Cycle (book), Appvance (AI-powered software testing), Blog/thought leadership content",
+        "Bridge the gap between deep technical AI expertise and human-centered leadership. Show leaders how curiosity and joy drive sustainable success in an AI-transformed world."
+      ]
+    },
+    "Alternatives": {
+      "Alternative": [
+        {
+          "@attributes": {
+            "name": "Generic AI commentators"
+          },
+          "ProblemSummary": "Surface-level trend analysis without builder credibility; readers can't distinguish between someone who reads about AI and someone who builds it",
+          "DifferentiationSummary": "Kevin invented the first AI-powered virtual assistant, holds 95 patents, and runs an AI company — he writes from the builder's workbench, not the press box"
+        },
+        {
+          "@attributes": {
+            "name": "Corporate thought leadership (McKinsey, Gartner analysts)"
+          },
+          "ProblemSummary": "Data-rich but personality-poor; no personal narrative, no vulnerability, no practical founder experience",
+          "DifferentiationSummary": "Kevin combines deep data with personal stories (invention, loss, joy), conversational authority, and actionable frameworks readers can use immediately"
+        },
+        {
+          "@attributes": {
+            "name": "Self-help / motivational content"
+          },
+          "ProblemSummary": "Abstract motivation without substance; no grounding in science, business data, or real-world company building",
+          "DifferentiationSummary": "Joy-Success Cycle is grounded in neuroscience, positive psychology research, and Kevin's own experience building companies and navigating personal loss"
+        }
+      ]
+    },
+    "CoreTopics": {
+      "Topic": [
+        {
+          "Name": "AI Leadership & Transformation",
+          "Description": "How leaders navigate AI adoption, what changes, what stays human",
+          "KeyAngle": "Written by someone who actually built foundational AI technology"
+        },
+        {
+          "Name": "Curiosity as Business Strategy",
+          "Description": "Why curiosity — not just skills — drives innovation and relevance",
+          "KeyAngle": "Curiosity is a skill, not a trait. Kevin's inventions prove it."
+        },
+        {
+          "Name": "The Joy-Success Cycle",
+          "Description": "Joy as fuel for performance, purpose, and sustainable success",
+          "KeyAngle": "Success doesn't create joy. Joy creates success. Science-backed."
+        },
+        {
+          "Name": "Future of Work with AI",
+          "Description": "How roles shift, what skills matter, the human-AI partnership",
+          "KeyAngle": "Pattern recognition from 30 years of technology waves"
+        },
+        {
+          "Name": "Innovation & Disruption Lessons",
+          "Description": "Lessons from building companies and inventing products across AI, cleantech, and building materials",
+          "KeyAngle": "95 patents and multiple industries — concrete, not theoretical"
+        }
+      ]
+    },
+    "UnfairAdvantage": {
+      "Statement": "No other AI thought leader combines: actually inventing foundational AI technology (the virtual assistant), 95 patents proving depth of innovation, a published framework for human performance (Joy-Success Cycle), and 20+ years of keynote speaking at the highest level ($25K+ fee tier).",
+      "OneSentence": "Kevin is the AI thought leader who actually built AI — and who can tell you why curiosity and joy matter more than any tool."
+    }
+  }
+}

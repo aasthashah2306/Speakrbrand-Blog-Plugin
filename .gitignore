@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Local Claude / Speakr config (machine-specific, may leak local paths)
+.claude/
+.speakr/
+
+# Client materials (private brand content, never commit)
+clients/
+
+# Old plugin build artifacts (keep only the latest)
+speakr-blog-pipeline.plugin
+speakr-blog-pipeline-v0.2.0.plugin
+speakr-blog-pipeline-v0.3.0.plugin
+speakr-blog-pipeline-v0.4.0.plugin
+speakr-blog-pipeline-v0.4.1.plugin
+speakr-blog-pipeline-v0.5.0.plugin
+
+# Loose root-level skill copies (superseded by speakr-plugin-src/skills/)
+/blog-graphics-artifact-generator-updated/
+/blog-post-content-research/
+/blog-post-creation/
+/blog-post-fact-checker/
+/blog-post-seo-research/
+/editing-checklist/
+/humanizer/
+/seo-content-brief-v4/
+
+# Generated blog deliverables (client-specific outputs, not source)
+*.docx
+*.pdf
+*.pptx
+*.xlsx
+future-of-work-*.md
+future-of-work-*.jsx
+kevin-surace-blog-*.html
+KEVIN-SURACE-CUSTOMIZATION-SUMMARY.md
+
+# Stray root docs from older snapshots
+/README (1).md
+/SKILL (1).md
+
+# Common secret/credential patterns (defensive)
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+**/secrets/
