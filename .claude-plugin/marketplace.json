@@ -1,0 +1,10 @@
+{
+  "name": "Speakr Blog Pipeline",
+  "description": "End-to-end blog content pipeline for thought leadership brands.",
+  "plugins": [
+    {
+      "name": "speakr-blog-pipeline",
+      "path": "speakr-plugin-src"
+    }
+  ]
+}
