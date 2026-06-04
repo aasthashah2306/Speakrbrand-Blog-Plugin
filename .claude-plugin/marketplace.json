@@ -1,6 +1,10 @@
 {
-  "name": "Speakr Blog Pipeline",
+  "name": "speakr-blog-pipeline-marketplace",
   "description": "End-to-end blog content pipeline for thought leadership brands.",
+  "owner": {
+    "name": "Speakr Brand",
+    "url": "https://github.com/aasthashah2306/Speakrbrand-Blog-Plugin"
+  },
   "plugins": [
     {
       "name": "speakr-blog-pipeline",
