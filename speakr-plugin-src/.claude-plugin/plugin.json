@@ -1,9 +1,9 @@
 {
   "name": "speakr-blog-pipeline",
-  "version": "0.5.1",
-  "description": "End-to-end blog content pipeline. Smart GDrive onboarding (knows Speakr's canonical folder structure: Brand Blueprint, IP STACK, Branding book, Competitive Analysis, Blogs, Testimonials, Keynotes — pulls and parses each into the right destination). Recurring drive-sync skill refreshes voice DNA as clients add content. Voice always wins over formatting rules. Strict text → graphics → preview → publish ordering. Styled HTML preview. Auto-publishes to Webflow/WordPress after preview approval. Per-colleague client isolation.",
+  "version": "0.6.0",
+  "description": "End-to-end thought-leadership content pipeline. Smart GDrive onboarding (knows Speakr's canonical folder structure: Brand Blueprint, IP STACK, Branding book, Competitive Analysis, Blogs, Testimonials, Keynotes — pulls and parses each into the right destination). Recurring drive-sync skill refreshes voice DNA as clients add content. Voice always wins over formatting rules. Blog flow: strict text → graphics → preview → publish ordering with styled HTML preview and auto-publish to Webflow/WordPress. LinkedIn flow: conversational, human posts and carousels via linkedin-post-creation (no SEO, no formulaic rehooks, prior-work check, truth-tier tagging). Per-colleague client isolation.",
   "author": {
     "name": "Speakr Brand"
   },
-  "keywords": ["blog", "seo", "content", "webflow", "wordpress", "thought-leadership", "brand-voice", "multi-client", "humanizer", "auto-publish", "gdrive", "drive-sync"]
+  "keywords": ["blog", "seo", "content", "linkedin", "social-media", "webflow", "wordpress", "thought-leadership", "brand-voice", "multi-client", "humanizer", "auto-publish", "gdrive", "drive-sync"]
 }

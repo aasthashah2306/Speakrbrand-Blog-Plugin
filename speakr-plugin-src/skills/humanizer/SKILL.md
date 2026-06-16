@@ -467,6 +467,38 @@ Avoiding AI patterns is only half the job. Sterile, voiceless writing is just as
 >
 > When users hit a slow page, they leave.
 
+
+### 30. Formulaic Rehooks (social/LinkedIn)
+
+**Problem:** A manufactured second line bolted onto the opening hook to force the reader past the fold. The same "twist" template every time, which reads as engineered and AI-assembled.
+
+**Patterns to watch:** "I used to think X. I don't anymore." / "Most people read it as Y. I read it as Z." / "And it's never the part you'd expect." / "Everyone gets this backwards."
+
+**Before:**
+> Warren Buffett still tap dances to work at 95.
+> I used to think that was just a cute quote. I don't anymore.
+
+**After:**
+> Warren Buffett still tap dances to work at 95.
+> I've run companies for 30 years, and for most of them I had this backwards.
+
+The fix: the line after the hook should be a genuine continuation — a confession or a specific detail — not a contrarian pivot.
+
+
+### 31. Motivational-Keynote Cadence and Zinger Stacking
+
+**Problem:** Stacked antithesis "zingers", tidy parallel one-liners, rule-of-three aphorisms, and rally-cry closes ("starting today"). It reads like a LinkedIn-guru stage script, not a person thinking.
+
+**Before:**
+> The patent made someone else rich. The skill made me unkillable.
+> Awards tell you what you did. A fall tells you who you are.
+> Stop waiting. Start building. Starting today.
+
+**After:**
+> The patent made someone else rich. I got paid well, but I didn't get rich off the thing I'm best known for. For years that stung, then it stopped — because the value was never the one thing I built. It was being able to build the next one.
+
+The fix: keep at most one earned antithesis line, hedge like a human, vary rhythm, and end soft (a quiet line or a real question) rather than a rallying command.
+
 ---
 
 ## Process
