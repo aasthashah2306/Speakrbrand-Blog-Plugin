@@ -72,6 +72,20 @@ Ask user: "I need the brief and target keyword to proceed. Please provide both."
 
 ## Content Research Workflow
 
+### Phase 0: Prior-Work Check (avoid repeating used angles)
+
+> **Run this before any research.** The biggest content failure is re-pitching a story the client has already published.
+
+1. Scan the active client's existing material for angles and anecdotes already used:
+   - `{clientsDir}/{slug}/drafts/` and any published posts/blogs
+   - prior LinkedIn series and `{clientsDir}/{slug}/samples/`
+   - `{clientsDir}/{slug}/CONTENT-LEARNINGS.md` → "used/burned angles" (if present)
+   - if the client has an Asana content board, recent + scheduled tasks
+2. Build a short "already used" list (stories, hooks, framings).
+3. As research surfaces angles, exclude or re-lens anything on that list. Note what you avoided and why in the research output.
+
+A strong story that's already been published is not a fresh angle. Find a new lens or a new story.
+
 ### Phase 1: Planning & Setup
 
 **Step 1.1: Review Brief**
